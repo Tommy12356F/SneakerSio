@@ -66,6 +66,8 @@ h2 {
     font-size: 46px;
     line-height: 54px;
     color: #222;
+    font-weight: normal;
+    font-family: "Test";
     
 
 }
@@ -73,6 +75,8 @@ h2 {
 h4{
     font-size: 20px;
     color: #222;
+    font-weight: normal;
+    font-family: "Test";
     
 }
 
@@ -158,6 +162,7 @@ p{
     padding-bottom: 15px;
     color: #00b150;
     
+    
 }
 
 #hero h1{
@@ -230,6 +235,8 @@ text-align: center;
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
+    font-weight: normal;
+    font-family: "Test";
 }
 
 #product1 .pro .des i{
@@ -239,8 +246,10 @@ text-align: center;
 #product1 .pro .des h4{
     padding-top: 7px;
     font-size: 17px;
-    font-weight: 700;
+    
     color: #22acec;
+    font-weight: normal;
+     font-family: "Test";
 }
 
 #product1 .pro .cart{
@@ -281,16 +290,22 @@ text-align: center;
 #banner h4{
     color: #fff;
     font-size: 16px;
+    font-weight: normal;
+    font-family: "Test";
 }
 
 #banner h2{
     color: #fff;
     font-size: 30px;
     padding: 10px 0;
+    font-weight: normal;
+    font-family: "Test";
 
 }
 #banner h2 span{
     color: rgb(112, 255, 124);
+    font-weight: normal;
+    font-family: "Test";
 }
 
 button.normal{
@@ -332,13 +347,15 @@ button.normal:hover {
 #newsletter h4{
     font-size: 22px;
     color: #fff;
-    font-weight: 700;
+    font-weight: normal;
+        font-family: "Test";
 }
 
 #newsletter p{
     color: #eeeeee;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
+    font-family: "Test";
 }
 #newsletter p span{
  color: rgb(238, 235, 57);
