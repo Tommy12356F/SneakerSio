@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,19 +42,19 @@
     src: local("Product Sans Regular"), url("../fonts/Spartan-Medium.ttf");
 }
 
-#hero p{
+#hero p {
     font-family: "Test";
     font-weight: 500;
 }
 
-#hero.button{
+#hero.button {
     font-weight: 100;
 }
 
 
 
 
-h1{
+h1 {
     font-size: 50px;
     line-height: 64px;
     color: #222;
@@ -68,54 +68,55 @@ h2 {
     color: #222;
     font-weight: normal;
     font-family: "Test";
-    
+
 
 }
 
-h4{
+h4 {
     font-size: 20px;
     color: #222;
     font-weight: normal;
     font-family: "Test";
-    
+
 }
 
-h6{
+h6 {
     font-weight: 700;
     font-size: 12px;
-    
+
 }
 
 
 
-#hero h2{
+#hero h2 {
     padding-bottom: 5px;
-    
 
-    
+
+
 }
 
-p{
+p {
     font-size: 16px;
     color: #465b52;
     margin: 15px 0 20px 0;
     font-family: 'Spartan', sans-serif;
 }
 
-.section-p1{
+.section-p1 {
     padding: 40px 80px
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#navbar li{
- list-style: none;
- padding: 0 20px;
- position: relative;
- 
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+
 }
 
 #navbar li a {
@@ -128,12 +129,12 @@ p{
 }
 
 #navbar li a:hover,
-#navbar li a.active{
+#navbar li a.active {
     color: #22acec;
 }
 
 #navbar li a.active::after,
-#navbar li a:hover::after{
+#navbar li a:hover::after {
     content: "";
     width: 30%;
     height: 2.1px;
@@ -145,7 +146,7 @@ p{
 
 }
 
-#hero{
+#hero {
     background-image: url(../img/daniel-storek-JM-qKEd1GMI-unsplash.jpg);
     height: 90vh;
     width: 100%;
@@ -158,48 +159,48 @@ p{
     flex-direction: column;
 }
 
-#hero h4{
+#hero h4 {
     padding-bottom: 15px;
     color: #00b150;
-    
-    
+
+
 }
 
-#hero h1{
+#hero h1 {
     color: #3bc1ff;
-    
+
 
 }
 
-#hero button{
+#hero button {
     display: inline-block;
-        outline: 0;
-        cursor: pointer;
-        border: none;
-        padding: 0 56px;
-        height: 45px;
-        line-height: 45px;
-        border-radius: 7px;
-        background-color: #0070f3;
-        color: white;
-        font-weight: 400;
-        font-size: 16px;
-        box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
-        transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-    
-        
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 56px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
+
 }
 
-#hero button:hover{
+#hero button:hover {
     background: rgba(0, 118, 255, 0.9);
-        box-shadow: 0 6px 20px rgba(0, 118, 255, 0.6);
+    box-shadow: 0 6px 20px rgba(0, 118, 255, 0.6);
 }
 
-#product1{
-text-align: center;
+#product1 {
+    text-align: center;
 }
 
-#product1 .pro{
+#product1 .pro {
     width: 23%;
     min-width: 250px;
     padding: 10px 12px;
@@ -211,27 +212,27 @@ text-align: center;
     position: relative;
 }
 
-#product1 .pro:hover{
+#product1 .pro:hover {
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.075);
     transition: 0.2s ease;
 }
 
-#product1 .pro .des{
+#product1 .pro .des {
     text-align: start;
     padding: 10px 0;
 }
 
-#product1 .pro img{
+#product1 .pro img {
     width: 100%;
     border-radius: 20px;
 }
 
-#product1 .pro .des span{
+#product1 .pro .des span {
     color: rgb(101, 101, 101);
     font-size: 12px;
 }
 
-#product1 .pro .des h5{
+#product1 .pro .des h5 {
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 14px;
@@ -239,20 +240,21 @@ text-align: center;
     font-family: "Test";
 }
 
-#product1 .pro .des i{
+#product1 .pro .des i {
     font-size: 12px;
     color: rgb(244, 202, 96);
 }
-#product1 .pro .des h4{
+
+#product1 .pro .des h4 {
     padding-top: 7px;
     font-size: 17px;
-    
+
     color: #22acec;
     font-weight: normal;
-     font-family: "Test";
+    font-family: "Test";
 }
 
-#product1 .pro .cart{
+#product1 .pro .cart {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -266,13 +268,14 @@ text-align: center;
 
 }
 
-#product1 .pro-container{
+#product1 .pro-container {
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
 }
-#banner{
+
+#banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,17 +287,17 @@ text-align: center;
     height: 40vh;
     background-size: cover;
     background-position: center;
-    
+
 }
 
-#banner h4{
+#banner h4 {
     color: #fff;
     font-size: 16px;
     font-weight: normal;
     font-family: "Test";
 }
 
-#banner h2{
+#banner h2 {
     color: #fff;
     font-size: 30px;
     padding: 10px 0;
@@ -302,28 +305,29 @@ text-align: center;
     font-family: "Test";
 
 }
-#banner h2 span{
+
+#banner h2 span {
     color: rgb(112, 255, 124);
     font-weight: normal;
     font-family: "Test";
 }
 
-button.normal{
-        display: inline-block;
-        outline: 0;
-        cursor: pointer;
-        border: none;
-        padding: 0 25px;
-        height: 45px;
-        line-height: 45px;
-        border-radius: 7px;
-        background-color: #0070f3;
-        color: white;
-        font-weight: 400;
-        font-size: 16px;
-        box-shadow: 0 4px 14px 0 rgb(0 118 255 / 15%);
-        transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
-    
+button.normal {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    padding: 0 25px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 15%);
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+
 }
 
 
@@ -332,7 +336,7 @@ button.normal:hover {
     box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
 }
 
-#newsletter{
+#newsletter {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -344,24 +348,28 @@ button.normal:hover {
     background-size: cover;
 }
 
-#newsletter h4{
+#newsletter h4 {
     font-size: 22px;
     color: #fff;
     font-weight: normal;
-        font-family: "Test";
+    font-family: "Test";
 }
 
-#newsletter p{
+#newsletter p {
     color: #eeeeee;
     font-size: 14px;
     font-weight: 500;
     font-family: "Test";
 }
-#newsletter p span{
- color: rgb(238, 235, 57);
+
+#newsletter p span {
+    color: rgb(238, 235, 57);
+    font-weight: 500;
+    font-family: "Test";
+
 }
 
-#newsletter input{
+#newsletter input {
     height: 3.125rem;
     padding: 0 1.25rem;
     font-size: 14px;
@@ -372,21 +380,21 @@ button.normal:hover {
 
 }
 
-#newsletter .form{
+#newsletter .form {
     display: flex;
     width: 40%;
-    
+
 
 }
 
-#newsletter button{
+#newsletter button {
     border-top-left-radius: 0;
-    border-bottom-left-radius:0 ;
+    border-bottom-left-radius: 0;
     height: 50px;
 }
 
-#page-header{
-    background-image:  linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+#page-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
         url(../img/backg.jpg);
     width: 100%;
     height: 40vh;
@@ -397,28 +405,30 @@ button.normal:hover {
     flex-direction: column;
     padding: 14px;
 }
+
 #page-header h2,
 #page-header p,
 #contact-header h2,
 #contact-header p,
 #about-header h2,
-#about-header p{
+#about-header p {
     color: #fff;
 }
 
-#contact-header{
-        background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+#contact-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
         url(../img/sean-pollock-PhYq704ffdA-unsplash.jpg);
-        width: 100%;
-        height: 40vh;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding: 14px;
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
 
 }
+
 #about-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
         url(../img/pexels-pixabay-39284.jpg);
@@ -442,13 +452,13 @@ button.normal:hover {
     background-size: cover;
 }
 
-#contact-details .details{
+#contact-details .details {
     width: 40%;
 }
 
-#contact-details .details span{
-    font-size:12px;
-    
+#contact-details .details span {
+    font-size: 12px;
+
 }
 
 #contact-details .details h2 {
@@ -467,59 +477,50 @@ button.normal:hover {
     padding-bottom: 15px;
 }
 
-#contact-details .details li{
+#contact-details .details li {
     list-style: none;
     padding: 10px 0;
     display: flex;
 }
 
-#contact-details .details li i{
+#contact-details .details li i {
     font-size: 14px;
     padding-right: 22px;
 }
 
-#contact-details .details li p{
+#contact-details .details li p {
     margin: 0;
     font-size: 14px;
 
 }
-#contact-details .map{
+
+#contact-details .map {
     width: 55%;
     height: 400px;
 }
 
-#contact-details .map iframe{
+#contact-details .map iframe {
     width: 100%;
     height: 100%;
 }
 
-#about-head img{
+#about-head img {
     width: 50%;
     height: auto;
 }
 
-#about-head{
+#about-head {
     display: flex;
     align-items: center;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.65)),
-    url(../img/kyle-glenn-1n6jYq40syA-unsplash.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.65)),
+        url(../img/kyle-glenn-1n6jYq40syA-unsplash.jpg);
     background-size: cover;
 }
 
-#about-head div{
+#about-head div {
     padding-left: 40px;
 }
 
-#about-head p{
+#about-head p {
     line-height: 2;
 }
-
-
-
-
-
-
-
-
-
-
